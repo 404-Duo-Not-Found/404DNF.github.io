@@ -11,7 +11,7 @@
     "close_menu": "Fechar menu"
   },
   "about": {
-    "heading": "Sobre Nós",
+    "eyebrow": "Sobre Nós",
     "title": "Uma presença digital para o teu negócio",
     "description": "Na 404 Duo Not Found, criamos websites personalizados e de alta qualidade para ajudar o teu negócio a destacar-se online. Oferecemos soluções inovadoras que combinam estética e funcionalidade. Desde a conceção até à implementação, trabalhamos contigo para criar uma presença digital que reflete a identidade única do teu negócio e atrai clientes de forma eficaz.",
     "items": [
@@ -30,5 +30,107 @@
     "title": "Vamos trabalhar juntos",
     "description": "Se estás interessado em criar um website personalizado para o teu negócio ou tens alguma dúvida, não hesites em entrar em contacto connosco. Estamos aqui para ajudar-te a alcançar os teus objetivos online. Envia-nos um email, e responderemos o mais breve possível.",
     "org_github": "Visita o nosso repositório no GitHub"
+  },
+  "hero": {
+    "eyebrow": "Soluções rápidas, profissionais e pensadas para gerar resultados",
+    "title": "Tudo o que o teu negócio precisa, num só clique",
+    "description": "Criamos soluções à medida para marcas, negócios locais e empresas que precisam de presença digital séria.",
+    "projects": "Ver projetos",
+    "cta": "Agendar reunião",
+    "side_panel" : {
+      "title": "Por que escolher-nos?",
+      "items": [
+        {
+          "icon": "<Zap />",
+          "title": "Performance"
+        },
+        {
+          "icon": "<Component />",
+          "title": "Design Moderno"
+        },
+        {
+          "icon": "<Proportions />",
+          "title": "Responsivo"
+        },
+        {
+          "icon": "<ShieldCheck />",
+          "title": "Segurança"
+        },
+        {
+          "icon": "<ChevronsUp />",
+          "title": "SEO Otimizado"
+
+        },
+        {
+          "icon": "<Wrench />",
+          "title": "Fácil Manutenção"
+        }
+      ]
+    }
+  },
+  "projetos": {
+    "eyebrow": "Projetos",
+    "title": "Alguns dos nossos trabalhos",
+    "description": "Aqui estão alguns dos projetos que desenvolvemos para os nossos clientes. Cada projeto é único e reflete a identidade e os objetivos do negócio. Se quiseres saber mais sobre algum projeto específico ou discutir como podemos ajudar o teu negócio, não hesites em entrar em contacto connosco.",
+    "items": [
+      {
+        "title": "Projeto 1",
+        "tag": "E-commerce",
+        "description": "Descrição do projeto 1."
+      },
+      {
+        "title": "Projeto 2",
+        "tag": "Website Institucional",
+        "description": "Descrição do projeto 2."
+      },
+      {
+        "title": "Projeto 3",
+        "tag": "Portfólio",
+        "description": "Descrição do projeto 3."
+      },
+      {
+        "title": "Projeto 4",
+        "tag": "Blog",
+        "description": "Descrição do projeto 4."
+      },
+      {
+        "title": "Projeto 5",
+        "tag": "Landing Page",
+        "description": "Descrição do projeto 5."
+      },
+      {
+        "title": "Projeto 6",
+        "tag": "Website Corporativo",
+        "description": "Descrição do projeto 6."
+      }
+    ]
+  },
+  "services" : {
+    "eyebrow": "Serviços",
+    "title": "O que oferecemos",
+    "description": "Soluções web completas para fazer crescer o teu negócio online.",
+    "items": [
+      {
+      "title": "Desenvolvimento Web",
+      "description": "Construção de plataformas modernas, rápidas e escaláveis para produtos e equipas digitais."
+      },
+      {
+        "title": "Apps e Interfaces",
+        "description": "Experiências intuitivas com foco em performance, design e usabilidade."
+      },
+      {
+        "title": "Automação e Integrações",
+        "description": "Ligação entre sistemas, APIs e fluxos internos para reduzir trabalho manual."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Equipe",
+    "title": "Conheça a nossa equipe",
+    "description": "Somos uma equipa apaixonada pela web com experiência prática e formação contínua. Gostamos do que fazemos e dedicamo-nos a criar soluções personalizadas para cada cliente.",
+    "team_members": [
+      { "name": "Fábio Casalão", "role": "Developer" },
+      { "name": "Rafael Silva", "role": "Developer" }
+    ]
   }
 }
