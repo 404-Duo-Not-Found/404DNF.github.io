@@ -4,7 +4,7 @@
     "about": "Sobre",
     "services": "Serviços",
     "projects": "Projetos",
-    "team": "Equipe",
+    "team": "Equipa",
     "contact": "Contato",
     "menu": "Menu",
     "open_menu": "Abrir menu",
@@ -125,8 +125,8 @@
     ]
   },
   "team": {
-    "eyebrow": "Equipe",
-    "title": "Conheça a nossa equipe",
+    "eyebrow": "Equipa",
+    "title": "Conheça a nossa equipa",
     "description": "Somos uma equipa apaixonada pela web com experiência prática e formação contínua. Gostamos do que fazemos e dedicamo-nos a criar soluções personalizadas para cada cliente.",
     "team_members": [
       { "name": "Fábio Casalão", "role": "Developer" },
