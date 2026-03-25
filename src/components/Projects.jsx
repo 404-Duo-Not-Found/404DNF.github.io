@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react'
 import SectionTitle from './SectionTitle'
 import { useTranslation } from 'react-i18next'
 import { ChevronRight, ChevronLeft } from 'lucide-react'
+import projects from '../data/projects'
 
 export default function Projects() {
   const { t } = useTranslation()
-  const projectItems = t('projetos.items', { returnObjects: true, defaultValue: [] })
-  const safeProjectItems = Array.isArray(projectItems) ? projectItems : []
+  const safeProjectItems = Array.isArray(projects) ? projects : []
 
   const [cardsPerView, setCardsPerView] = useState(3)
   const [index, setIndex] = useState(0)
@@ -72,14 +72,20 @@ export default function Projects() {
         >
           {safeProjectItems.map((item) => (
             <article
-              key={item.title}
+              key={item.id}
               className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_10px_30px_rgba(0,0,0,0.18)]"
             >
               <span className="rounded-full border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-sky-300">
-                {item.tag}
+                {t(`projects.${item.id}.tag`)}
               </span>
-              <h3 className="mt-4 text-2xl font-bold">{item.title}</h3>
-              <p className="mt-3 text-slate-300">{item.description}</p>
+
+              <h3 className="mt-4 text-2xl font-bold">
+                {t(`projects.${item.id}.title`)}
+              </h3>
+
+              <p className="mt-3 text-slate-300">
+                {t(`projects.${item.id}.description`)}
+              </p>
             </article>
           ))}
         </div>
@@ -96,7 +102,7 @@ export default function Projects() {
             >
               {safeProjectItems.map((item) => (
                 <div
-                  key={item.title}
+                  key={item.id}
                   className="min-w-0 shrink-0"
                   style={{
                     width: `calc((100% - ${gapRem * (cardsPerView - 1)}rem) / ${cardsPerView})`,
@@ -104,10 +110,16 @@ export default function Projects() {
                 >
                   <article className="h-full w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_10px_30px_rgba(0,0,0,0.18)]">
                     <span className="rounded-full border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-sky-300">
-                      {item.tag}
+                      {t(`projects.${item.id}.tag`)}
                     </span>
-                    <h3 className="mt-4 text-2xl font-bold">{item.title}</h3>
-                    <p className="mt-3 text-slate-300">{item.description}</p>
+
+                    <h3 className="mt-4 text-2xl font-bold">
+                      {t(`projects.${item.id}.title`)}
+                    </h3>
+
+                    <p className="mt-3 text-slate-300">
+                      {t(`projects.${item.id}.description`)}
+                    </p>
                   </article>
                 </div>
               ))}
@@ -119,13 +131,13 @@ export default function Projects() {
               onClick={prev}
               disabled={index === 0}
               aria-label="Projeto anterior"
-              className={`flex h-8 w-8 items-center justify-center rounded-full border border-white/10 backdrop-blur-md transition
-                ${index === 0
-                  ? 'opacity-30 cursor-not-allowed'
+              className={`flex h-8 w-8 items-center justify-center rounded-full border border-white/10 backdrop-blur-md transition ${
+                index === 0
+                  ? 'cursor-not-allowed opacity-30'
                   : 'bg-white/10 text-white hover:scale-105 hover:bg-white/20'
-                }`}
+              }`}
             >
-              <ChevronLeft/>
+              <ChevronLeft />
             </button>
 
             <div className="flex justify-center gap-2">
@@ -143,14 +155,15 @@ export default function Projects() {
 
             <button
               onClick={next}
+              disabled={index === maxIndex}
               aria-label="Próximo projeto"
-              className={`flex h-8 w-8 items-center justify-center rounded-full border border-white/10 backdrop-blur-md transition
-                ${index === maxIndex
-                  ? 'opacity-30 cursor-not-allowed'
+              className={`flex h-8 w-8 items-center justify-center rounded-full border border-white/10 backdrop-blur-md transition ${
+                index === maxIndex
+                  ? 'cursor-not-allowed opacity-30'
                   : 'bg-white/10 text-white hover:scale-105 hover:bg-white/20'
-                }`}
+              }`}
             >
-              <ChevronRight size={40}/>
+              <ChevronRight />
             </button>
           </div>
         </div>
