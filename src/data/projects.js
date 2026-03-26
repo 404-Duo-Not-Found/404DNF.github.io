@@ -28,14 +28,14 @@ const projects = [
       status: true,
       image: '/images/elevator-system-app.png'
     },
-    github: 'https://github.com/...',
+    github: 'https://github.com/404-Duo-Not-Found/Elevator-System',
     demo: {
-      status: true,
+      status: false,
       demo: 'https://example.com/elevator-system'
     },
     video: {
       status: true,
-      video: 'https://www.youtube.com/embed/...'
+      video: '/videos/elevator-system-app.mp4'
     },
     featured: true,
     progress: {
@@ -50,14 +50,14 @@ const projects = [
       status: false,
       image: '/images/smart-home-app.png'
     },
-    github: 'https://github.com/...',
+    github: 'https://github.com/404-Duo-Not-Found/Smart-Home',
     demo: {
       status: false,
       demo: ''
     },
     video: {
-      status: false,
-      video: ''
+      status: true,
+      video: '/videos/Smart-home.mp4'
     },
     featured: true,
     progress: {
