@@ -99,7 +99,8 @@
     "description": "At 404 Team Not Found, we have a talented and dedicated team of professionals who are passionate about creating exceptional websites for our clients. Our team includes:",
     "team_members": [
       { "name": "Fábio Casalão", "role": "Developer" },
-      { "name": "Rafael Silva", "role": "Developer" }
+      { "name": "Rafael Silva", "role": "Developer" },
+      { "name": "Diogo Guedes", "role": "Developer" }
     ]
   },
   "email_modal": {
