@@ -1,5 +1,5 @@
 {
-  "org_name": "404 Duo Not Found",
+  "org_name": "404 Team Not Found",
   "header": {
     "about": "About",
     "services": "Services",
@@ -14,7 +14,7 @@
   "about": {
     "eyebrow": "About Us",
     "title": "A digital presence for your business",
-    "description": "At 404 Duo Not Found, we create custom, high-quality websites to help your business stand out online. We offer innovative solutions that combine aesthetics and functionality. From conception to implementation, we work with you to create a digital presence that reflects the unique identity of your business and attracts customers effectively.",
+    "description": "At 404 Team Not Found, we create custom, high-quality websites to help your business stand out online. We offer innovative solutions that combine aesthetics and functionality. From conception to implementation, we work with you to create a digital presence that reflects the unique identity of your business and attracts customers effectively.",
     "items": [
       {
         "title": "Custom Design",
@@ -72,7 +72,7 @@
   "services": {
     "eyebrow": "Services",
     "title": "What we offer",
-    "description": "At 404 Duo Not Found, we offer a range of services to help your business establish a strong online presence. Our services include:",
+    "description": "At 404 Team Not Found, we offer a range of services to help your business establish a strong online presence. Our services include:",
     "items": [
       {
       "title": "Web Development",
@@ -91,12 +91,12 @@
   "projetos": {
     "eyebrow": "Projects",
     "title": "Our work",
-    "description": "At 404 Duo Not Found, we take pride in the projects we've completed for our clients. Here are some examples of our work:"
+    "description": "At 404 Team Not Found, we take pride in the projects we've completed for our clients. Here are some examples of our work:"
   },
   "team": {
     "eyebrow": "Team",
     "title": "Meet our team",
-    "description": "At 404 Duo Not Found, we have a talented and dedicated team of professionals who are passionate about creating exceptional websites for our clients. Our team includes:",
+    "description": "At 404 Team Not Found, we have a talented and dedicated team of professionals who are passionate about creating exceptional websites for our clients. Our team includes:",
     "team_members": [
       { "name": "Fábio Casalão", "role": "Developer" },
       { "name": "Rafael Silva", "role": "Developer" }
@@ -127,7 +127,7 @@
       "title": "MentalEase",
       "description": "A mental health support application with customized resources and tools.",
       "content": [{
-        "1": "MentalEase was developed to provide accessible and effective mental health support, offering a personalized, wellness-focused experience."
+        "1": "MentalEase was developed to provide a safe and accessible space for people seeking mental health support. The application includes a variety of resources, from self-help tools to conversations with psychologists, helping users manage stress and their mental health issues effectively."
       }]
     },
     "Sistema de elevadores": {
@@ -135,27 +135,31 @@
       "title": "Elevator System",
       "description": "Elevator management and monitoring system with advanced features.",
       "content": [{
-        "1": "The Elevator System was developed to optimize building management and maintenance, providing a complete solution for monitoring and controlling equipment."
-      }],
-      "extra": "Unable to view the visual part (mockup) of the project due to Arduino requirements"
-
+        "1": "The elevator system was developed to make building management simpler, efficient and modern. It allows real-time monitoring of elevator operations, facilitating equipment control and maintenance.",
+        "2": "Built with solid technology like Java and JavaFX, the system offers an intuitive, fast and reliable interface, designed for users without technical knowledge requirements.",
+        "3": "The solution simulates real elevator behavior, ensuring quick responses to requests and smooth operation, even with multiple elevators in operation at the same time.",
+        "4": "Additionally, the system was developed to grow with you, allowing the integration of new features and adaptations according to your building's needs."
+      }]
     },
     "Smart Home": {
       "tag": "Java App",
       "title": "Smart Home",
       "description": "Home automation system with remote control and integration with smart devices.",
       "content": [{
-        "1": "Smart Home was developed to provide a more convenient and efficient living experience, enabling centralized control of all household devices."
+        "1": "The Smart Home was developed to provide a more convenient and efficient living experience, allowing centralized control of all home devices.",
+        "2": "With an intuitive and easy-to-use interface, Smart Home allows users to control lighting, temperature, security and other smart devices, all from a single application with a graphical interface developed in JavaFX."
       }],
-      "extra": "Additional information about the Smart Home project."
+      "extra": "Unable to view the visual part (mockup) of the project due to Arduino requirements"
     },
     "Roblox Tycoon": {
       "tag": "Game",
       "title": "Roblox Tycoon",
       "description": "A business simulation game on the Roblox platform.",
       "content": [{
-        "1": "Roblox Tycoon was developed to offer an engaging and challenging gaming experience, allowing players to build and manage their own empire."
+        "1": "Roblox Tycoon was developed to offer an engaging and challenging gaming experience, allowing players to build and manage their own empire.",
+        "2": "With colorful graphics and intuitive gameplay, Roblox Tycoon is perfect for players of all ages who want to test their management and strategy skills on their way to becoming moguls."
       }]
     }
   }
 }
+

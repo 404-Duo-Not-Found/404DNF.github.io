@@ -1,5 +1,5 @@
 {
-  "org_name": "404 Duo Not Found",
+  "org_name": "404 Team Not Found",
   "header": {
     "about": "Sobre",
     "services": "Serviços",
@@ -14,7 +14,7 @@
   "about": {
     "eyebrow": "Sobre Nós",
     "title": "Uma presença digital para o teu negócio",
-    "description": "Na 404 Duo Not Found, criamos websites personalizados e de alta qualidade para ajudar o teu negócio a destacar-se online. Oferecemos soluções inovadoras que combinam estética e funcionalidade. Desde a conceção até à implementação, trabalhamos contigo para criar uma presença digital que reflete a identidade única do teu negócio e atrai clientes de forma eficaz.",
+    "description": "Na 404 Team Not Found, criamos websites personalizados e de alta qualidade para ajudar o teu negócio a destacar-se online. Oferecemos soluções inovadoras que combinam estética e funcionalidade. Desde a conceção até à implementação, trabalhamos contigo para criar uma presença digital que reflete a identidade única do teu negócio e atrai clientes de forma eficaz.",
     "items": [
       {
         "title": "Design Personalizado",
@@ -40,7 +40,7 @@
     "projects": "Ver projetos",
     "cta": "Agendar reunião",
     "side_panel" : {
-      "title": "Por que escolher-nos?",
+      "title": "Porque escolher-nos?",
       "items": [
         {
           "icon": "<Zap />",
@@ -100,7 +100,8 @@
     "description": "Somos uma equipa apaixonada pela web com experiência prática e formação contínua. Gostamos do que fazemos e dedicamo-nos a criar soluções personalizadas para cada cliente.",
     "team_members": [
       { "name": "Fábio Casalão", "role": "Developer" },
-      { "name": "Rafael Silva", "role": "Developer" }
+      { "name": "Rafael Silva", "role": "Developer" },
+      { "name": "Diogo Guedes", "role": "Developer" }
     ]
   },
   "email_modal": {
@@ -128,7 +129,7 @@
       "title": "MentalEase",
       "description": "Aplicação de apoio à saúde mental com recursos e ferramentas personalizadas.",
       "content": [{
-        "1": "Conteúdo do projeto MentalEase"
+        "1": "O MentalEase foi desenvolvido para oferecer um espaço seguro e acessível para pessoas que procuram apoio à saúde mental. A aplicação inclui uma variedade de recursos, desde ferramentas de autoajuda, até conversas com psicólogos, ajudando os utilizadores a gerir o stress e os seus problemas de saúde mental de forma eficaz."
       }]
     },
     "Sistema de elevadores": {
@@ -157,7 +158,8 @@
       "title": "Roblox Tycoon",
       "description": "Jogo de simulação de negócios na plataforma Roblox.",
       "content": [{
-        "1": "O Roblox Tycoon foi desenvolvido para oferecer uma experiência de jogo envolvente e desafiadora, permitindo aos jogadores construir e gerir o seu próprio império."
+        "1": "O Roblox Tycoon foi desenvolvido para oferecer uma experiência de jogo envolvente e desafiadora, permitindo aos jogadores construir e gerir o seu próprio império.",
+        "2": "Com gráficos coloridos e uma jogabilidade intuitiva, o Roblox Tycoon é perfeito para jogadores de todas as idades que desejam testar as suas habilidades de gestão e estratégia no seu rumo a magnatas."
       }]
     }
   }

@@ -49,8 +49,9 @@ export default function EmailModal({ triggerText = 'Send an email from website' 
   return (
     <>
       <button
-        onClick={() => setIsOpen(true)}
-        className="rounded-xl border border-white/15 px-3 font-medium text-white transition hover:bg-white/5"
+        onClick={() => /* setIsOpen(true) */ e.preventDefault()}
+        className="rounded-xl border border-white/15 px-3 font-medium text-white transition hover:bg-white/5 cursor-not-allowed opacity-50"
+        
       >
         <Send />
       </button>
