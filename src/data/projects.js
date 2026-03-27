@@ -19,7 +19,8 @@ const projects = [
     progress: {
       done: true,
       value: 20
-    }
+    },
+    extra: false
   },
   {
     id: 'Sistema de elevadores',
@@ -41,7 +42,8 @@ const projects = [
     progress: {
       done: true,
       value: 100
-    }
+    },
+    extra: false
   },
   {
     id: 'Smart Home',
@@ -63,7 +65,8 @@ const projects = [
     progress: {
       done: true,
       value: 100
-    }
+    },
+    extra: true
   },
   {
     id: 'Roblox Tycoon',
@@ -85,7 +88,8 @@ const projects = [
     progress: {
       done: false,
       value: 10
-    }
+    },
+    extra: false
   }
 ]
 

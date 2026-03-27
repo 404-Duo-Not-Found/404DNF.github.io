@@ -127,25 +127,37 @@
       "tag": "Website",
       "title": "MentalEase",
       "description": "Aplicação de apoio à saúde mental com recursos e ferramentas personalizadas.",
-      "content": "A MentalEase foi desenvolvida para oferecer suporte acessível e eficaz à saúde mental, proporcionando uma experiência personalizada e orientada para o bem-estar."
+      "content": [{
+        "1": "Conteúdo do projeto MentalEase"
+      }]
     },
     "Sistema de elevadores": {
       "tag": "App Java",
       "title": "Sistema de elevadores",
       "description": "Sistema de gestão e monitorização de elevadores com funcionalidades avançadas.",
-      "content": "O Sistema de elevadores foi desenvolvido para otimizar a gestão e manutenção de edifícios, proporcionando uma solução completa para o acompanhamento e controlo dos equipamentos."
+      "content": [{
+        "1": "O sistema de elevadores foi desenvolvido para tornar a gestão de edifícios mais simples, eficiente e moderna. Permite acompanhar, em tempo real, o funcionamento dos elevadores, facilitando o controlo e a manutenção dos equipamentos.",
+        "2": "Construído com tecnologia sólida como Java e JavaFX, o sistema oferece uma interface intuitiva, rápida e fiável, pensada para utilizadores sem necessidade de conhecimentos técnicos.",
+        "3": " A solução simula o comportamento real dos elevadores, garantindo respostas rápidas aos pedidos e um funcionamento fluido, mesmo com vários elevadores em operação ao mesmo tempo.",
+        "4": " Além disso, o sistema foi desenvolvido para crescer consigo, permitindo a integração de novas funcionalidades e adaptações conforme as necessidades do edifício."
+      }]
     },
     "Smart Home": {
       "tag": "App Java",
       "title": "Smart Home",
       "description": "Sistema de automação residencial com controlo remoto e integração com dispositivos inteligentes.",
-      "content": "O Smart Home foi desenvolvido para proporcionar uma experiência de vida mais conveniente e eficiente, permitindo o controlo centralizado de todos os dispositivos da casa."
+      "content": [{
+        "1": "O Smart Home foi desenvolvido para proporcionar uma experiência de vida mais conveniente e eficiente, permitindo o controlo centralizado de todos os dispositivos da casa."
+      }],
+      "extra": "Informações adicionais sobre o projeto MentalEase."
     },
     "Roblox Tycoon": {
       "tag": "Jogo",
       "title": "Roblox Tycoon",
       "description": "Jogo de simulação de negócios na plataforma Roblox.",
-      "content": "O Roblox Tycoon foi desenvolvido para oferecer uma experiência de jogo envolvente e desafiadora, permitindo aos jogadores construir e gerir o seu próprio império."
+      "content": [{
+        "1": "O Roblox Tycoon foi desenvolvido para oferecer uma experiência de jogo envolvente e desafiadora, permitindo aos jogadores construir e gerir o seu próprio império."
+      }]
     }
   }
 }

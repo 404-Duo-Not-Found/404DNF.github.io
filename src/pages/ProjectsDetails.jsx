@@ -9,6 +9,16 @@ export default function ProjectDetail() {
   const { id } = useParams()
   const { t } = useTranslation()
 
+  const content = t(`projects.${id}.content`, {
+    returnObjects: true,
+    defaultValue: [],
+  })
+
+  const content_values =
+    Array.isArray(content) && content.length > 0 && typeof content[0] === 'object'
+      ? Object.values(content[0])
+      : []
+
   const project = projects.find((item) => item.id === id)
 
   if (!project) {
@@ -47,10 +57,12 @@ export default function ProjectDetail() {
         </div>
       )}
 
-      <div className="mt-8">
-        <p className="leading-7 text-slate-300">
-          {t(`projects.${project.id}.content`)}
-        </p>
+      <div className="mt-8 space-y-4">
+        {content_values.map((paragraph, index) => (
+          <p key={index} className="leading-7 text-slate-300">
+            {paragraph}
+          </p>
+        ))}
       </div>
 
       <div className="mt-8 flex flex-wrap gap-4">
@@ -86,6 +98,14 @@ export default function ProjectDetail() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
+        </div>
+      )}
+
+      {project.extra && (
+        <div className="mt-8">
+          <p className="leading-7 text-slate-300">
+            *{t(`projects.${project.id}.extra`)}
+          </p>
         </div>
       )}
     </section>

@@ -126,25 +126,34 @@
       "tag": "Website",
       "title": "MentalEase",
       "description": "A mental health support application with customized resources and tools.",
-      "content": "MentalEase was developed to provide accessible and effective mental health support, offering a personalized, wellness-focused experience."
+      "content": [{
+        "1": "MentalEase was developed to provide accessible and effective mental health support, offering a personalized, wellness-focused experience."
+      }]
     },
     "Sistema de elevadores": {
       "tag": "Java App",
       "title": "Elevator System",
       "description": "Elevator management and monitoring system with advanced features.",
-      "content": "The Elevator System was developed to optimize building management and maintenance, providing a complete solution for monitoring and controlling equipment."
+      "content": [{
+        "1": "The Elevator System was developed to optimize building management and maintenance, providing a complete solution for monitoring and controlling equipment."
+      }]
     },
     "Smart Home": {
       "tag": "Java App",
       "title": "Smart Home",
       "description": "Home automation system with remote control and integration with smart devices.",
-      "content": "Smart Home was developed to provide a more convenient and efficient living experience, enabling centralized control of all household devices."
+      "content": [{
+        "1": "Smart Home was developed to provide a more convenient and efficient living experience, enabling centralized control of all household devices."
+      }],
+      "extra": "Additional information about the Smart Home project."
     },
     "Roblox Tycoon": {
       "tag": "Game",
       "title": "Roblox Tycoon",
       "description": "A business simulation game on the Roblox platform.",
-      "content": "Roblox Tycoon was developed to offer an engaging and challenging gaming experience, allowing players to build and manage their own empire."
+      "content": [{
+        "1": "Roblox Tycoon was developed to offer an engaging and challenging gaming experience, allowing players to build and manage their own empire."
+      }]
     }
   }
 }

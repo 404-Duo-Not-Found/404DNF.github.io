@@ -76,6 +76,7 @@ export default function Projects() {
               tag={t(`projects.${item.id}.tag`)}
               title={t(`projects.${item.id}.title`)}
               description={t(`projects.${item.id}.description`)}
+              id={item.id}
             />
           ))}
         </div>
@@ -102,6 +103,7 @@ export default function Projects() {
                     tag={t(`projects.${item.id}.tag`)}
                     title={t(`projects.${item.id}.title`)}
                     description={t(`projects.${item.id}.description`)}
+                    id={item.id}
                   />
                 </div>
               ))}
